@@ -1,0 +1,28 @@
+{
+    "name": "wenpeng/validator",
+    "description": "一个超轻量的 PHP 批量验证类, 简单高效, 扩展方便",
+    "homepage": "https://github.com/wenpeng/validator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "WenPeng",
+            "email": "imwwp@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "php validate",
+        "php validator",
+        "batch validate",
+        "batch validator"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wenpeng\\Validator\\": "src/"
+        }
+    }
+}
